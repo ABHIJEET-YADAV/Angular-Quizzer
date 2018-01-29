@@ -1,0 +1,64 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Signup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-item>
+     <ion-label floating>Full Name</ion-label>
+     <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Mobile Number</ion-label>
+     <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Email Id</ion-label>
+     <ion-input type="text"></ion-input>
+    </ion-item>
+
+ </ion-list>
+ <ion-grid>
+    <ion-row>
+        <ion-col col-12>
+            <button ion-button block round (click)="onSubmit()">Signup</button>
+        </ion-col>
+    </ion-row>
+    <hr>
+    <ion-row>
+        <ion-col text-center col-12>
+            Social Signup
+        </ion-col>
+        <ion-col col-12>
+
+
+            <button ion-button block>
+              <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon> &nbsp;
+              Facebook
+            </button>
+
+            <button ion-button block color="danger">
+                <ion-icon ios="logo-google" md="logo-google"></ion-icon>
+                &nbsp;
+              Google
+            </button>
+        </ion-col>
+    </ion-row>
+
+</ion-grid>
+
+</ion-content>

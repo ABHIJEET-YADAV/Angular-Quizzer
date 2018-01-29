@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>{{this.navParams.data.title || "Live Quiz"}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <quiz-card [clickEvent]="onCardClick"></quiz-card>
+</ion-content>

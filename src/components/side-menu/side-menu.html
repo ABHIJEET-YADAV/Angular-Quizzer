@@ -1,0 +1,7 @@
+<ion-content margin-top>
+  <ion-list>
+    <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      {{p.title}}
+    </button>
+  </ion-list>
+</ion-content>
